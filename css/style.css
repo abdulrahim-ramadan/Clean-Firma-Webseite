@@ -1,0 +1,328 @@
+body{
+    font-family: 'Jost', sans-serif;
+
+}
+.mybackround{
+    background-color: #E9EDF3;
+}
+.nav-link{
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+.nav-item:hover .nav-link{
+    color: #7153d9;
+}
+.main-subtitle{
+    font-size: 24px;
+    color: #7153d9;
+    letter-spacing: 8px;
+    font-weight: 500;
+}
+.main-title{
+    font-size: 72px;
+    font-weight: 500;
+}
+.main-p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #54545f;
+}
+.main-btn{
+background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+padding: 20px 45px;
+border-radius: 35px;
+text-decoration: none;
+color: white;
+}
+.bg-white {
+    background: #E9EDF3!important;
+    
+  }
+  
+  .bg-white.scrolled {
+    background:white !important;
+  }
+.call-icon{
+    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.nav-call-us a{
+text-decoration: none;
+margin-top: -13px;
+color: black;
+}
+.service-subtitle{
+    font-size: 18px;
+}
+.service-title{
+    font-size: 60px;
+}
+.service-p{
+    font-size: 21px;
+    color: #8d8e99;
+}
+.mycard{
+    box-shadow: 0px 12px 42px rgba(69, 38, 177, 0.1), 11px 6px 25px rgba(69, 38, 177, 0.1);
+}
+.mycard img{
+    margin-top: -39px;
+}
+.myp{
+    color:#54545f ;
+    font-size: 18px;
+    font-weight: 400; 
+}
+.readmore-btn{
+    color:black ;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .3s;
+}
+.readmore-btn:hover{
+    margin-left: 10px;
+    color:  #7153d9;
+} 
+.bi{
+    margin-top: -3px;
+}
+.blog-btn{
+    background-color: #e2c4ff;
+    color: black;
+    width: 600;
+    padding: 15px 45px;
+    border-radius: 35px;
+    text-decoration: none;
+}
+.blog-btn:hover{
+    background-color: #7153d9;
+    color: white;
+}
+.blog-title{
+   color: black; 
+   text-decoration: none;
+}
+.blog-title:hover{
+color:#0d5efd ;
+}
+.blog-category{
+ color: #7153d9;  
+ font-size: 16px;
+}
+.feature-icon{
+    background-color:#f2f5fb ;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 113px;
+}
+
+/* media queries */
+
+/* mobiles */
+@media (max-width:576px) {
+    .main-title{
+        font-size: 36px;
+    }
+    .banner-section .container{
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .main-subtitle{
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    .main-p{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .banner-section img{
+        margin-top: 50px;
+    }
+    .feature-card{
+        margin: 15px 0px;
+    }
+    .img-2{
+       margin-top: 20px; 
+    }
+    .blog-card{
+       margin-top: 30px; 
+    }
+    .blog-card img{
+        width: 100%;
+    }
+    .blog-content{
+        padding-left: 12px !important;
+        margin-top: 12px !important;
+    }
+}
+
+/* tablet size */
+@media (min-width:575px) and (max-width:991px)  {
+    .bolg-list{
+        margin-top: 30px;
+    }
+}
+.main-nav{
+    color: white;
+}
+
+.mian-stayl{
+    background-color: #8d8e99;
+}
+
+/* so */
+
+    .social-media-icon {
+        max-width: 100%;
+        height: auto;
+
+
+    
+    }
+    
+/* 11111 */
+
+
+
+  
+
+  /* Style the Un-order list by setting its list-style to none */
+  .wrapper ul {
+    list-style: none;
+  }
+  
+  /* Style the list items inside the UL list, by setting its width, height and line-height 
+    and float them to left and set its border and border-radius.
+   */
+  .wrapper ul li {
+    
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #D8E2DC;
+    float: left;
+    transition: all 0.5s ease;
+  }
+  
+  /* Style the icons by setting its color and margin-top value to 20px 
+  to align it properly */
+  .wrapper ul li .fa {
+    
+    color: #D8E2DC;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+  }
+  
+  /* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+    to icons for glowing effect and use transition property for smooth transition effect. */
+  /*facebook*/
+  .wrapper ul li:hover.facebook {
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-facebook {
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+  }
+  
+  /*twitter*/
+  .wrapper ul li:hover.twitter {
+    border: 5px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-twitter {
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+  }
+  
+  /* instagram */
+  .wrapper ul li:hover.instagram {
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-instagram {
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+  }
+  
+  /* google */
+  .wrapper ul li:hover.google {
+    border: 5px solid #dd4b39;
+    box-shadow: 0 0 15px #dd4b39;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-google {
+    color: #dd4b39;
+    text-shadow: 0 0 15px #dd4b39;
+    transition: all 0.5s ease;
+  }
+  
+  /* whatsapp */
+  .wrapper ul li:hover.whatsapp {
+    border: 5px solid #4dc247;
+    box-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-whatsapp {
+    color: #4dc247;
+    text-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+  }
+  
+  
+  /* media queries */
+  
+  @media screen and (max-width: 640px){
+    .wrapper {
+        width: 350px;
+    }
+    .wrapper ul li{
+        margin-top: 10px;
+    }
+    .wrapper ul li.google{
+        margin-left: 60px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 340px){
+    .wrapper {
+        width: 150px;
+    }
+    .wrapper ul li{
+        margin:15px;
+    }
+    .wrapper ul li.google{
+        margin-left: 15px;
+    }
+  }
+
+  .wrapper{
+    margin-left: -50px;
+  }
+
+  
