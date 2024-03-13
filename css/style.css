@@ -19,6 +19,9 @@ color: black;
   letter-spacing: 8px;
   font-weight: 500;
 }
+.main-nav{
+  margin-top: 10px;
+}
 .main-title{
   font-size: 72px;
   font-weight: 500;
